@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mulish:wght@200&family=Nunito:wght@200&family=Rubik:wght@300&family=Zen+Kurenaido&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0b0c2a;
+    color: white;
+    width: 100vw;
+}
+
+
+/*Navbar section */
+body{
+    margin: 0;
+}
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: black;
+    line-height: 70px;
+    transition-duration: .3s;
+}
+.navbar a:hover{
+    background-color: aliceblue;
+}
+/* Navbar section */
+
+
+
+
+
+
+/* Show section */
+#AllBanners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+#primaryMainContainer{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns:auto auto;
+}
+#contentBanners{
+    width: 769px;
+    margin-left: -440px;
+}
+
+/* Other Banners  */
+
+/* All shows banners  */
+#MainContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+
+}
+#Heading-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-left: 5px solid red;
+    height: 12%;
+    padding: 0 12px;
+    align-items: center;
+}
+.heading{
+    font-size: 1.6em;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+    
+}
+.viewAll {
+    font-family: 'Mulish', sans-serif;
+    position: relative;
+    left: 55%;
+    font-weight: bold;
+    font-size: 1.3em;
+    cursor: pointer;
+    width: 82px;
+    
+}
+#Banners-container{
+    margin-top: 19px;
+    width: 1280px;
+    flex-wrap: wrap;
+    display: flex;
+}
+#Banners-container img{
+    width: 200px;
+    border-radius: 5px;
+    margin-right:20px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.Image-Name{
+    position: relative;
+    color: white;
+    width: 200px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 0px 9px;
+}
+.ep{
+    background: #FFAA00;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 15px;
+    position: absolute;
+    display: inline-block;
+    top: 25px;
+    left: 10px;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+.comments{
+    background: rgb(46, 46, 46);
+    padding: 2px 8px;
+    border-radius: 3px;
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+.watch{
+    background: #131721;
+    padding: 2px 7px;
+    position: absolute;
+    top: 300px;
+    left: 125px;
+    border-radius: 20px;
+    font-size: 1.19em;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content-type{
+    display: flex;
+    height: 0px;
+    margin: 20px 0 10px 0;
+}
+.action{
+    display: flex;
+    background: rgb(49, 49, 49);
+    border-radius: 17px;
+    padding: 6px 3px;
+    font-size: 1em;
+    font-family: 'Dongle', sans-serif;
+    align-items: center;
+}
+.adventure{
+    display: flex;
+    background: rgb(49, 49, 49);
+    border-radius: 17px;
+    padding: 6px 3px;
+    font-size: 1em;
+    margin-left: 12px;
+    font-family: 'Dongle', sans-serif;
+    align-items: center;
+}
+.show-name{
+    font-size: 1.4em;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/* Show section */
+
+
+
+/* News section */
+#LatestNews {
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: 50px;
+}
+#LatestNewsSection{
+    width: 364px;
+    top: 0;
+    float: left;
+}
+.insideLatestNews{
+    width: 364px;
+}
+#Heading-box2{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-left: 5px solid red;
+    padding: 0 12px;
+    align-items: center;
+
+}
+.headingInNews{
+    font-size: 1.6em;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+}
+.viewAllInNews{
+    font-family: 'Mulish', sans-serif;
+    position: relative;
+    left: 35%;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+#LatestNewses{
+    margin-top: 30px;
+}
+#ImageOfNews{
+    margin-top: 16px;
+    width: 364px;
+    position: relative;
+}
+#ImageOfNews img{
+    width: 364px;
+    border-radius: 10px;
+}
+
+.name{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1.4em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+.epInNews{
+    background: red;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 3px;
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 10px;
+    font-size: 0.9em;
+    font-family: 'Ubuntu', sans-serif;
+}
+.watchInNews{
+    position: absolute;
+    right: 9px;
+    top: 10px;
+    background: red;
+    padding: 2px 8px;
+    position: absolute;
+    border-radius: 3px;
+    font-size: 0.9em;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* News section */
+
+
+
+
+
+
+
+@media only screen and (max-width:1132px) {
+
+    .slider{
+        width: 860px;
+    }
+
+
+    #contentBanners{
+        width: 537px;
+        flex-wrap: wrap;
+    }
+    .Image-Name{
+        padding-right: 12px;
+        width: 167px;
+    }
+
+    #ImageOfNews{
+        width: 300px;
+    }
+    #ImageOfNews img{
+        width: 300px;
+    }
+    #Banners-container{
+        width: 537px;
+    }
+    #Banners-container img{
+        width: 167px;
+    }
+
+    .comments{
+        top: 231px;
+    }
+    .watch{
+        width: 53px;
+        top: 231px;
+        left: 91px;
+    }
+
+
+    #LatestNews{
+        margin-left: 30px;
+    }
+    #LatestNewsSection{
+        width: 300px;
+    }
+}
+@media only screen and  (max-width:900px){
+    #Menu-Btn{
+        display: block;
+    }
+    #other-opt button{
+        margin-right: 70px;
+        
+    }
+    #Navbar ul li{
+        display: none;
+    }
+    #search{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+
+    .slider{
+        width: 700px;
+    }
+    .slider img{
+        width: 621px;
+        height: 307px;
+    }
+
+    #contentBanners{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+
+
+    #primaryMainContainer{
+
+        grid-template-columns:auto ;
+        grid-template-rows: auto auto;
+    }
+    #Banners-container{
+        width: 700px;
+    }
+
+
+
+
+    .Image-Name{
+        padding-right: 12px;
+        width: 163px;
+    }
+}
+
+@media only screen and  (max-width:730px){
+    .slider{
+        width: 540px;
+    }
+    .search{
+        right: 49px;
+    }
+    #contentBanners{
+        width: 540px;
+        flex-wrap: wrap;
+    }
+    #Banners-container{
+        width: 540px;
+    }
+}
+@media only screen and  (max-width:550px){
+    .slider{
+        width: 380px;
+        height: 400px;
+    }
+    .search{
+        right: 16px;
+    }
+    #contentBanners{
+        width: 380px;
+        flex-wrap: wrap;
+    }
+    #Banners-container{
+        width: 380px;
+    }
+
+    .Image-Name{
+        padding-right: 12px;
+        width: 178px;
+    }
+    #Banners-container img{
+        width: 182px;
+    }
+}
+@media only screen and  (max-width:400px){
+    .slider{
+        width: 290px;
+        height: 250px;
+    }
+    #other-opt{
+        display: none;
+    }
+    #Menu-Btn{
+        display: block;
+
+    }
+    #contentBanners{
+        width: 300px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    #Banners-container{
+        width: 300px;
+        margin: auto;
+    }
+    .Image-Name{
+        padding-right: 12px;
+        width: 138px;
+    }
+    #Banners-container img{
+        width: 140px;
+    }
+    #Heading-box{
+        font-size: 0.9em;
+    }
+
+    .comments{
+        top: 195px;
+        font-size: 11px;
+    }
+    .watch{
+        width: 44px;
+        top: 195px;
+        left: 72px;
+        font-size: 11px;
+    }
+    #LatestNews{
+        margin-left: 0px;
+    }
+    #LatestNewsSection{
+        width: 270px;
+    }
+}
+
+@media only screen and  (max-width:310px){
+    #contentBanners{
+        width: 290px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    #Banners-container{
+        width: 290px;
+        margin: auto;
+    }
+
+    .Image-Name{
+        padding-right: 12px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    #Banners-container img{
+        width: 200px;
+    }
+
+    .comments{
+        top: 283px;
+        font-size: 15px;
+    }
+    .watch{
+        width: 55px;
+        top: 283px;
+        left: 119px;
+        font-size: 15px;
+    }
+    .viewAllInNews{
+        max-width: 83px;
+    }
+}
